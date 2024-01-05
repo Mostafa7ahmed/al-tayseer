@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css project -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- css icons -->
+    <link rel="stylesheet" href="smart/assets/smart.css">
+    <link rel="stylesheet" href="smart/style.css">
+    <!-- emailjs -->
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script> -->
+    <!-- <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("8qAF_yW9o1XgGkIEs");
+        })();
+    </script> -->
+    <!-- <script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script> -->
+
+    <!-- emailjs -->
+
+</head>
+
+<body>
+    <!-- start header -->
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="menu">
+                    <i class=" icon-menu"></i>
+                </div>
+                <div class="logo_links">
+                    <a class="logos" href="index.html">
+                        <img class="logo" src="images/Mask Group -1.png" alt="">
+                        <img class="logo_two" src="images/Mask Group -2.png" alt="">
+                    </a>
+                    <ul>
+                        <li>
+                            <a class="link border_bottom" href="index.html">الصفحه الرائيسيه</a>
+                        </li>
+                        <li>
+                            <a class="link border_bottom0" href="#">خدماتنا</a>
+                            <i class="icon-circle-down bottom"></i>
+                            <ul class="play_list">
+                                <li><a class="play_list_a" href="#">العيادات الخارجيه</a></li>
+                                <li><a class="play_list_a" href="#">وحده الطورائ</a></li>
+                                <li><a class="play_list_a" href="#">العنايه المركزه</a></li>
+                                <li><a class="play_list_a" href="#">معامل التيسير</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="link border_bottom" href="who_are_we.html">عن المستشفي</a>
+                            <!-- <i class="icon-circle-down bottom"></i>
+                    <ul class="play_list">
+                        <li><a class="play_list_a" href="#">Alaa</a></li>
+                        <li><a class="play_list_a" href="#">Alaa</a></li>
+                        <li><a class="play_list_a" href="#">Alaa</a></li>
+                        <li><a class="play_list_a" href="#">Alaa</a></li>
+                        <li><a class="play_list_a" href="#">Alaa</a></li>
+                    </ul> -->
+                        </li>
+                        <li>
+                            <a class="link active" href="Contact_us.html">تواصل معنا</a>
+                        </li>
+                        <li class="li_icon_search">
+                            <i class="icon-search"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="input_search">
+                    <i class="icon-search"></i>
+                    <input type="search" name="" id="search" placeholder="ابحث عن طبيب او خدمه">
+                </div>
+                <a href="appointment_booking.html" class="link_btn">احجز كشف الان</a>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+
+
+    <!-- start section  -->
+
+    <!-- <section class="contact_us">
+        <div class="section_one_text_icons m-t">
+            <i class="icon-arrow-right2 icon_one"></i>
+            <i class="icon-arrow-right2 icon_two"></i>
+        </div>
+        <div class="contact">
+            <h2>اتصل بنا</h2>
+            <form>
+                <input class="w2" type="text" name="" placeholder="الاسم" id="user_name">
+                <input class="w2" type="text" name="" placeholder="تلفون" id="user_phone">
+                <input class="w2" type="email" name="" placeholder="البريد الاكتروني" id="user_email">
+                <select class="w2" name="" id="option">
+                    <option value="اختر الفرع الاقرب اليك">اختر الفرع الاقرب اليك</option>
+                    <option value="الجيزه">الجيزه</option>
+                    <option value="الهرم">الهرم</option>
+                    <option value="القاهره">القاهره</option>
+                    <option value="سيناء">سيناء</option>
+                    <option value="حلوان">حلوان</option>
+                </select>
+                <textarea name="" id="maseg" placeholder="الرساله"></textarea>
+                <button class="link_submit" onclick="endMail()">ارسال الرساله</button>
+            </form>
+            <form>
+                <input class="w2" type="text" name="" placeholder="الاسم" id="user_name">
+                <input class="w2" type="text" name="" placeholder="تلفون" id="user_phone">
+                <input class="w2" type="email" name="" placeholder="البريد الإلكتروني" id="user_email">
+                <select class="w2" name="" id="option">
+                    <option value="اختر الفرع الأقرب إليك">اختر الفرع الأقرب إليك</option>
+                    <option value="الجيزة">الجيزة</option>
+                    <option value="الهرم">الهرم</option>
+                    <option value="القاهرة">القاهرة</option>
+                    <option value="سيناء">سيناء</option>
+                    <option value="حلوان">حلوان</option>
+                </select>
+                <textarea name="" id="maseg" placeholder="الرسالة" cols="30" rows="10"></textarea>
+                <button class="link_submit" onclick="sendMail()">ارسال الرسالة</button>
+            </form>
+        </div>
+    </section> -->
+
+    <!-- start section contact_us  -->
+    <section class="contact_us who_are_we_and_contact_use">
+        <div class="container">
+            <div class="section_one_text_icons">
+                <i class="icon-arrow-right2 icon_one"></i>
+                <i class="icon-arrow-right2 icon_two"></i>
+            </div>
+            <div class="contact">
+
+                <h2 class="who_are_we_and_contact_use_h2">اتصل بنا</h2>
+                <form>
+                    <input class="w2" type="text" name="" placeholder="الاسم" id="user_name">
+                    <input class="w2" type="text" name="" placeholder="تلفون" id="user_phone">
+                    <input class="w2" type="email" name="" placeholder="البريد الإلكتروني" id="user_email">
+                    <select class="w2" name="" id="option">
+                        <option value="اختر الفرع الأقرب إليك">اختر الفرع الأقرب إليك</option>
+                        <option value="الجيزة">الجيزة</option>
+                        <option value="الهرم">الهرم</option>
+                        <option value="القاهرة">القاهرة</option>
+                        <option value="سيناء">سيناء</option>
+                        <option value="حلوان">حلوان</option>
+                    </select>
+                    <textarea name="" id="maseg" placeholder="الرسالة"></textarea>
+                    <button class="btn_appointment  link_submit" type="button" >ارسال
+                        الرسالة</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- end section contact_us -->
+
+    <hr>
+
+    <!-- start footer -->
+    <footer>
+        <div class="container">
+            <div class="footer_container">
+                <div class="footer_right">
+                    <h2> <i class="icon-phone"></i> للاتصال بنا</h2>
+                    <ul>
+                        <li>حجز موعد:01006622514</li>
+                        <li>للاستعلام:01006622514</li>
+                        <li>الأسعاف في حاله الطوارئ:01006622514</li>
+                    </ul>
+                    <div class="footer_right_sochel">
+                        <p>التواصل الاجتماعي</p>
+                        <div class="footer_right_sochel_icons">
+                            <a href="#"><i class="icon-facebook"></i></a>
+                            <a href="#"><i class="icon-twitter"></i></a>
+                            <a href="#"><i class="icon-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_left">
+                    <h2> <i class="icon-location"></i> الفروع</h2>
+                    <p>Nasr City, Egypt,شارع حسن المأمون</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer_Copyright">Copyright 2023 .All rights reserved</div>
+    <!-- end footer -->
+
+    <script src="js/index.js"></script>
+    <script src="smart/assets/smart.js"></script>
+
+</body>
+
+</html>
